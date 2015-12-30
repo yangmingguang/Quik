@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/spinner_ab_focused_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/spinner_ab_focused_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/spinner_ab_default_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/spinner_ab_default_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/list_pressed_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/list_pressed_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/progress_primary_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/progress_primary_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/btn_cab_done_focused_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/btn_cab_done_focused_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/card_common_bg_normal.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/card_common_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/card_common_bg_pressed.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/card_common_bg_pressed.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/tab_unselected_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/tab_unselected_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/progress_bg_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/progress_bg_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/ab_solid_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/ab_solid_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/cab_background_bottom_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/cab_background_bottom_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/spinner_ab_disabled_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/spinner_ab_disabled_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/ab_texture_tile_quiker.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/ab_texture_tile_quiker.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/menu_dropdown_panel_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/menu_dropdown_panel_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/tab_unselected_focused_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/tab_unselected_focused_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/btn_cab_done_pressed_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/btn_cab_done_pressed_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/tab_unselected_pressed_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/tab_unselected_pressed_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/tab_selected_pressed_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/tab_selected_pressed_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/tab_selected_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/tab_selected_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/btn_cab_done_default_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/btn_cab_done_default_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/cab_background_top_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/cab_background_top_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/ab_stacked_solid_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/ab_stacked_solid_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/ab_transparent_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/ab_transparent_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/spinner_ab_pressed_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/spinner_ab_pressed_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/ab_bottom_solid_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/ab_bottom_solid_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/tab_unselected_holo.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/tab_bottom.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/tab_bottom.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/tab_selected_focused_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/tab_selected_focused_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/list_focused_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/list_focused_quiker.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-nodpi-v4/progress_secondary_quiker.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-nodpi/progress_secondary_quiker.9.png"
+    }
+]

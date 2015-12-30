@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_drawable"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/SlidingMenuItemStyle"
+        android:drawableRight="@drawable/setting_open"
+        android:text="@string/voice_alert" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#e7e5e5" />
+
+    <TextView
+        style="@style/SlidingMenuItemStyle"
+        android:drawableRight="@drawable/setting_open"
+        android:text="@string/vibration_alert" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#e7e5e5" />
+
+    <TextView
+        style="@style/SlidingMenuItemStyle"
+        android:drawableRight="@drawable/setting_open"
+        android:text="@string/receive_message" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#e7e5e5" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="10dp"
+        android:background="#e7e5e5" />
+
+    <TextView
+        android:id="@+id/btn_modify_password"
+        style="@style/SlidingMenuItemStyle"
+        android:drawableRight="@drawable/ic_arrow_right"
+        android:text="@string/modify_password" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#e7e5e5" />
+
+    <TextView
+        android:id="@+id/btn_clear_cache"
+        style="@style/SlidingMenuItemStyle"
+        android:drawableRight="@drawable/ic_arrow_right"
+        android:text="@string/clear_cache" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#e7e5e5" />
+
+    <TextView
+        android:id="@+id/btn_about"
+        style="@style/SlidingMenuItemStyle"
+        android:drawableRight="@drawable/ic_arrow_right"
+        android:text="@string/about" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#e7e5e5" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="30dp"
+        android:background="#e7e5e5" />
+
+    <TextView
+        android:id="@+id/btn_exit"
+        style="@style/SlidingMenuItemStyle"
+        android:gravity="center"
+        android:text="@string/exit" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#e7e5e5" />
+
+</LinearLayout>

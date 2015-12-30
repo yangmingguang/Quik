@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="app_bg_drawable">#eeeeee</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="foot_title_color">#9F9F9F</color>
+    <color name="foot_title_color_selected">#8781BD</color>
+    <color name="receive_btn_normal">#95D3D2</color>
+    <color name="receive_btn_pressed">#a0d9d8</color>
+    <color name="send_btn_normal">#FFADA2</color>
+    <color name="send_btn_pressed">#ffb7ad</color>
+    <color name="slidingmenu_item_pressed">#F6F7F6</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="CircleFlowIndicator"><attr format="color" name="activeColor"/><attr format="color" name="inactiveColor"/><attr format="integer" name="fadeOut"/><attr name="inactiveType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr><attr name="activeType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr><attr format="dimension" name="circleSeparation"/><attr format="dimension" name="activeRadius"/><attr format="dimension" name="inactiveRadius"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="PointerView"><attr format="color" name="mCircle_color"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewFlow"><attr format="integer" name="sidebuffer"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <dimen name="footbar_btn_padding">2.5dp</dimen>
+    <dimen name="footbar_paddingTop">3dp</dimen>
+    <dimen name="footbar_radio_text_size">13sp</dimen>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <string name="about">关于快客</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">快客</string>
+    <string name="apply_quiker_title">申请快客跑腿人</string>
+    <string name="check_version">版本更新</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="exit">退出系统</string>
+    <string name="feedback_title">意见反馈</string>
+    <string name="footer_btn_home">首页</string>
+    <string name="footer_btn_mine">我的</string>
+    <string name="footer_btn_order">订单</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home_title">快客跑腿</string>
+    <string name="message_title">我的消息</string>
+    <string name="modify_password">修改登录密码</string>
+    <string name="order_manager_title">订单管理</string>
+    <string name="order_title">我的订单</string>
+    <string name="receive_message">接收消息推送</string>
+    <string name="receive_order_text">抢单赚钱</string>
+    <string name="send_order_text">无忧下单</string>
+    <string name="settings_title">设置中心</string>
+    <string name="tab_order_cancel">已取消订单</string>
+    <string name="tab_order_complete">已完成订单</string>
+    <string name="tab_order_execute">进行中订单</string>
+    <string name="vibration_alert">震动提醒</string>
+    <string name="voice_alert">声音提醒</string>
+    <style name="ActionBar.Solid.Quiker" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_quiker</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_quiker</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_quiker</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Quiker</item>
+    </style>
+    <style name="ActionBar.Transparent.Quiker" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_quiker</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Quiker</item>
+    </style>
+    <style name="ActionBarTabStyle.Quiker" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_quiker</item>
+    </style>
+    <style name="ActionButton.CloseMode.Quiker" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_quiker</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:actionBarStyle">@style/my_actionbar_style</item>
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/tab_indicator_ab_quiker</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textSize">14.6sp</item>
+        <item name="android:dividerPadding">4dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">4dp</item>
+    </style>
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@drawable/selector_tabtext</item>
+    </style>
+    <style name="DropDownListView.Quiker" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_quiker</item>
+    </style>
+    <style name="DropDownNav.Quiker" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_quiker</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_quiker</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_quiker</item>
+    </style>
+    <style name="PopupMenu.Quiker" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_quiker</item>	
+    </style>
+    <style name="ProgressBar.Quiker" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_quiker</item>
+    </style>
+    <style name="SlidingMenuItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_slidingmenu_item</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:textSize">14.2sp</item>
+        <item name="android:textColor">#383838</item>
+    </style>
+    <style name="StyledIndicators" parent="@style/AppTheme">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Theme.Quiker" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_quiker</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Quiker</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Quiker</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Quiker</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Quiker</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Quiker</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_quiker</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_quiker</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Quiker</item>
+        
+                <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Quiker.Widget</item>
+
+    </style>
+    <style name="Theme.Quiker.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Quiker</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Quiker</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="main_footbar_radio">
+        <item name="android:padding">@dimen/footbar_btn_padding</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/footbar_radio_text_size</item>
+        <item name="android:textColor">@color/selector_rb_text_color</item>
+    </style>
+    <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#5503b1</item>
+    </style>
+</resources>

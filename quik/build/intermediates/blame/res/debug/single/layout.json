@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/layout/act_settings.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/layout/act_settings.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/layout/main_header.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/layout/main_header.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/layout/fm_tab_mine.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/layout/fm_tab_mine.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/layout/fm_tab_order.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/layout/fm_tab_order.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/layout/act_main.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/layout/act_main.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/layout/fm_tab_home.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/layout/fm_tab_home.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/layout/empty.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/layout/empty.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/layout/banner_item.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/layout/banner_item.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/layout/fm_order_common.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/layout/fm_order_common.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/layout/main_footer.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/layout/main_footer.xml"
+    }
+]

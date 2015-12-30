@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg_drawable"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/banner_view"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@color/white" >
+
+            <com.leying.quik.ui.views.viewflow.ViewFlow
+                android:id="@+id/fb_viewflow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.leying.quik.ui.views.viewflow.CircleFlowIndicator
+                xmlns:flow="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/fb_viewflowindic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:padding="6dip"
+                flow:activeColor="#52D830"
+                flow:inactiveColor="#C4C8CD"
+                flow:inactiveRadius="2dp"
+                flow:inactiveType="fill" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.8"
+            android:background="@color/white"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_banner_logo" >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:padding="4dp" >
+
+            <RelativeLayout
+                android:id="@+id/btn_send"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_send_btn"
+                android:drawablePadding="10dp"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_send"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_send"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/send_order_text"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_receive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_receive_btn"
+                android:drawablePadding="10dp"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/iv_receive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/ic_receive"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_receive"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/receive_order_text"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/color/selector_rb_text_color.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/color/selector_rb_text_color.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/color/vpi__light_theme.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/exploded-aar/Quik/viewPagerIndicatorlibrary/unspecified/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/exploded-aar/Quik/viewPagerIndicatorlibrary/unspecified/res/color/vpi__dark_theme.xml"
+    }
+]

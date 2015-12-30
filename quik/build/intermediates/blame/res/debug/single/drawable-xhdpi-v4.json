@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_receive.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_receive.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_mine_normal.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/tab_mine_normal.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_arrow_right.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_arrow_right.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_menu_settings.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_menu_settings.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_back.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_back.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_send.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_send.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_unselected_pressed_holo.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/exploded-aar/Quik/viewPagerIndicatorlibrary/unspecified/res/drawable-xhdpi-v4/vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_unselected_holo.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/exploded-aar/Quik/viewPagerIndicatorlibrary/unspecified/res/drawable-xhdpi-v4/vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_check.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_check.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_home_pressed.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/tab_home_pressed.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_feedback.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_feedback.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_banner_logo.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_banner_logo.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_default_header.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_default_header.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_order_pressed.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/tab_order_pressed.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_empty.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_empty.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_apply.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_apply.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_home_normal.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/tab_home_normal.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_selected_holo.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/exploded-aar/Quik/viewPagerIndicatorlibrary/unspecified/res/drawable-xhdpi-v4/vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_mine_pressed.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/tab_mine_pressed.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_menu_indicate.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_menu_indicate.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_unselected_focused_holo.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/exploded-aar/Quik/viewPagerIndicatorlibrary/unspecified/res/drawable-xhdpi-v4/vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/banner_detail_default.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/banner_detail_default.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_selected_pressed_holo.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/exploded-aar/Quik/viewPagerIndicatorlibrary/unspecified/res/drawable-xhdpi-v4/vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vpi__tab_selected_focused_holo.9.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/exploded-aar/Quik/viewPagerIndicatorlibrary/unspecified/res/drawable-xhdpi-v4/vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_message_center.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_message_center.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/setting_close.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/setting_close.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tab_order_normal.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/tab_order_normal.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_setings.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_setings.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/setting_open.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/setting_open.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_order_manager.png",
+        "source": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/drawable-xhdpi/ic_order_manager.png"
+    }
+]

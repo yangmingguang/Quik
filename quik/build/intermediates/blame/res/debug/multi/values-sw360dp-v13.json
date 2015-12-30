@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/Users/apple/AndroidStudioProjects/Quik/quik/build/intermediates/res/merged/debug/values-sw360dp-v13/values-sw360dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 96,
+                        "endColumn": 49,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 48,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 48,
+                        "endOffset": 191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 154,
+                    "endColumn": 54,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "/Users/apple/AndroidStudioProjects/Quik/quik/src/main/res/values-sw360dp/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 40,
+                        "endColumn": 54,
+                        "endOffset": 90
+                    }
+                }
+            }
+        ]
+    }
+]

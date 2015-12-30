@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_drawable" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#9233D6"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_default_header" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:text="13410706179"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/btn_apply_quiker"
+            style="@style/SlidingMenuItemStyle"
+            android:drawableLeft="@drawable/ic_apply"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:text="@string/apply_quiker_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#e7e5e5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/card_common_bg_normal"
+            android:baselineAligned="false" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_slidingmenu_item"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/tv_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="0.00"
+                    android:textColor="#383838"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_balance"
+                    android:layout_centerHorizontal="true"
+                    android:text="余额"
+                    android:textColor="#787878"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="match_parent"
+                android:background="#e7e5e5" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_slidingmenu_item"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:id="@+id/ll_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11"
+                        android:textColor="#383838"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="笔"
+                        android:textColor="#383838"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_send"
+                    android:layout_centerHorizontal="true"
+                    android:text="发单"
+                    android:textColor="#787878"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0.1dp"
+                android:layout_height="match_parent"
+                android:background="#e7e5e5" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_slidingmenu_item"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:id="@+id/ll_receive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="28"
+                        android:textColor="#383838"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="笔"
+                        android:textColor="#383838"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_receive"
+                    android:layout_centerHorizontal="true"
+                    android:text="抢单"
+                    android:textColor="#787878"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#e7e5e5" />
+
+        <TextView
+            android:id="@+id/btn_order_manager"
+            style="@style/SlidingMenuItemStyle"
+            android:drawableLeft="@drawable/ic_order_manager"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:text="@string/order_manager_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#e7e5e5" />
+
+        <TextView
+            android:id="@+id/btn_message"
+            style="@style/SlidingMenuItemStyle"
+            android:drawableLeft="@drawable/ic_message_center"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:text="@string/message_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#e7e5e5" />
+
+        <TextView
+            android:id="@+id/btn_settings"
+            style="@style/SlidingMenuItemStyle"
+            android:drawableLeft="@drawable/ic_setings"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:text="@string/settings_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#e7e5e5" />
+
+        <TextView
+            android:id="@+id/btn_feedback"
+            style="@style/SlidingMenuItemStyle"
+            android:drawableLeft="@drawable/ic_feedback"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:text="@string/feedback_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#e7e5e5" />
+
+        <TextView
+            android:id="@+id/btn_check_version"
+            style="@style/SlidingMenuItemStyle"
+            android:drawableLeft="@drawable/ic_check"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:text="@string/check_version" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#e7e5e5" />
+    </LinearLayout>
+
+</ScrollView>

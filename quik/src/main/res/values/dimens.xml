@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- footer -->
+    <dimen name="footbar_radio_text_size">13sp</dimen>
+    <dimen name="footbar_btn_padding">2.5dp</dimen>
+    <dimen name="footbar_paddingTop">3dp</dimen>
+
+</resources>
