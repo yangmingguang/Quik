@@ -13,6 +13,12 @@ import com.leying.quik.ui.activity.home.HomeFragment;
 import com.leying.quik.ui.activity.mine.MineFragment;
 import com.leying.quik.ui.activity.order.OrderFragment;
 
+/**
+ * @ClassName: MainActivity
+ * @Description: TODO(这里用一句话描述这个类的作用)
+ * @author YangMingGuang
+ * @date 2015-5-24 下午3:18:41
+ */
 public class MainActivity extends FragmentActivity {
 
 	private Fragment mCurrentFragment, homeFragement, orderFragment, mineFragment;
@@ -27,7 +33,7 @@ public class MainActivity extends FragmentActivity {
 	/** 
 	* @Title: initView 
 	* @Description: TODO(这里用一句话描述这个方法的作用) 
-	* @param     设定文件 
+	* @param
 	* @return void    返回类型 
 	* @throws 
 	*/
